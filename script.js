@@ -16,31 +16,31 @@ year.textContent = new Date().getFullYear();
 //images URL and Alt value
 const imageURL = {
   clear: {
-    src: "/images/SunRise.png",
+    src: "/EMCSquare12.github.io/images/SunRise.png",
     alt: "Clear Sky",
   },
   rainy: {
-    src: "/images/Rainy.png",
+    src: "/EMCSquare12.github.io/images/Rainy.png",
     alt: "Rainy",
   },
   cloudy: {
-    src: "/images/Cloudy.png",
+    src: "/EMCSquare12.github.io/images/Cloudy.png",
     alt: "Cloud",
   },
   snowy: {
-    src: "/images/Snowy.png",
+    src: "/EMCSquare12.github.io/images/Snowy.png",
     alt: "Snowy Flakes",
   },
   thunderStorm: {
-    src: "/images/ThunderStorm.png",
+    src: "/EMCSquare12.github.io/images/ThunderStorm.png",
     alt: "Cloud with Thunder",
   },
   windy: {
-    src: "/images/Windy.png",
+    src: "/EMCSquare12.github.io/images/Windy.png",
     alt: "Cloud with Wind",
   },
   noLocationFound: {
-    src: "/images/NoLocationFound.png",
+    src: "/EMCSquare12.github.io/images/NoLocationFound.png",
     alt: "Search Icon with Map",
   },
 };
