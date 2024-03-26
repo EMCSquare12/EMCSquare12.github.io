@@ -16,31 +16,31 @@ year.textContent = new Date().getFullYear();
 //images URL and Alt value
 const imageURL = {
   clear: {
-    src: "/EMCSquare12.github.io/images/SunRise.png",
+    src: "/EMCSquare12.github.io/images/sunRise.png",
     alt: "Clear Sky",
   },
   rainy: {
-    src: "/EMCSquare12.github.io/images/Rainy.png",
+    src: "/EMCSquare12.github.io/images/rainy.png",
     alt: "Rainy",
   },
   cloudy: {
-    src: "/EMCSquare12.github.io/images/Cloudy.png",
+    src: "/EMCSquare12.github.io/images/cloudy.png",
     alt: "Cloud",
   },
   snowy: {
-    src: "/EMCSquare12.github.io/images/Snowy.png",
+    src: "/EMCSquare12.github.io/images/snowy.png",
     alt: "Snowy Flakes",
   },
   thunderStorm: {
-    src: "/EMCSquare12.github.io/images/ThunderStorm.png",
+    src: "/EMCSquare12.github.io/images/thunderStorm.png",
     alt: "Cloud with Thunder",
   },
   windy: {
-    src: "/EMCSquare12.github.io/images/Windy.png",
+    src: "/EMCSquare12.github.io/images/windy.png",
     alt: "Cloud with Wind",
   },
   noLocationFound: {
-    src: "/EMCSquare12.github.io/images/NoLocationFound.png",
+    src: "/EMCSquare12.github.io/images/noLocationFound.png",
     alt: "Search Icon with Map",
   },
 };
@@ -150,3 +150,5 @@ inputLocation.addEventListener("change", () => {
   const cityName = inputLocation.value;
   handleFetchWeatherData(cityName);
 });
+
+
