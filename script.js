@@ -40,7 +40,7 @@ const imageURL = {
     alt: "Cloud with Wind",
   },
   noLocationFound: {
-    src: "noLocationFound.png",
+    src: "images/noLocationFound.png",
     alt: "Search Icon with Map",
   },
 };
@@ -97,7 +97,9 @@ async function handleFetchWeatherData(cityName) {
       temperature.textContent = `${(data.main.temp - 273.15).toFixed(1)}`;
       humidity.textContent = `${data.main.humidity}%`;
       windSpeed.textContent = `${data.wind.speed} m/s`;
-      inputLocation.value = `${data.name}, ${data.sys.country}`;
+      inputLocation.value = `${data.name}${
+        data.sys.country !== undefined ? ", " + data.sys.country : ""
+      }`;
       status.style.display = "flex";
       temperature.style.display = "block";
       celcius.style.display = "block";
@@ -150,5 +152,3 @@ inputLocation.addEventListener("change", () => {
   const cityName = inputLocation.value;
   handleFetchWeatherData(cityName);
 });
-
-
