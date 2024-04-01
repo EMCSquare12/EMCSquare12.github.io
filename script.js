@@ -45,7 +45,7 @@ const imageURL = {
   },
 };
 
-//Open Weather Promise
+//Open Weather Promise  
 async function fetchWeatherData(cityName) {
   const apiKey = "db1ea954b66c85e8444faff2c2f18eba";
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
