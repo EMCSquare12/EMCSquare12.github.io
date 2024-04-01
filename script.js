@@ -16,31 +16,31 @@ year.textContent = new Date().getFullYear();
 //images URL and Alt value
 const imageURL = {
   clear: {
-    src: "images/sunRise.png",
+    src: "./images/sunRise.png",
     alt: "Clear Sky",
   },
   rainy: {
-    src: "images/rainy.png",
+    src: "./images/rainy.png",
     alt: "Rainy",
   },
   cloudy: {
-    src: "images/Cloudy.png",
+    src: "./images/Cloudy.png",
     alt: "Cloud",
   },
   snowy: {
-    src: "images/snowy.png",
+    src: "./images/snowy.png",
     alt: "Snowy Flakes",
   },
   thunderStorm: {
-    src: "images/thunderStorm.png",
+    src: "./images/thunderStorm.png",
     alt: "Cloud with Thunder",
   },
   windy: {
-    src: "images/windy.png",
+    src: "./images/windy.png",
     alt: "Cloud with Wind",
   },
   noLocationFound: {
-    src: "images/noLocationFound.png",
+    src: "./images/noLocationFound.png",
     alt: "Search Icon with Map",
   },
 };
