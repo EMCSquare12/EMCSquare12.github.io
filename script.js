@@ -24,7 +24,7 @@ const imageURL = {
     alt: "Rainy",
   },
   cloudy: {
-    src: "./images/Cloudy.png",
+    src: "./images/cloudy.png",
     alt: "Cloud",
   },
   snowy: {
